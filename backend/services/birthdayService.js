@@ -85,7 +85,7 @@ const generateBirthdayEmailTemplate = (user) => {
             </div>
 
             <div style="margin: 30px 0;">
-                <a href="https://alumni-portal-davjjp.vercel.app/login"
+                <a href="https://jnv-maa.vercel.app/login"
                    style="background: linear-gradient(135deg, #8448ac 0%, #8448ac 100%);
                           color: white;
                           padding: 14px 35px;

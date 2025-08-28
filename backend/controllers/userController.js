@@ -303,7 +303,7 @@ exports.approveRegistration = async (req, res) => {
       </ul>
 
       <p style="margin:25px 0;">
-        <a href="https://alumni-portal-davjjp.vercel.app" 
+        <a href="https://jnv-maa.vercel.app/" 
            style="background-color:#007bff; color:white; padding:12px 20px; 
            text-decoration:none; border-radius:5px; display:inline-block; font-weight:bold;">
           🔓 Log In to the Alumni Portal

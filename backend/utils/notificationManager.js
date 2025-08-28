@@ -66,7 +66,7 @@ const sendNotification = async (req, notificationData) => {
         </p>
         
         <div style="text-align: center; margin: 30px 0;">
-          <a href="https://alumni-portal-davjjp.vercel.app/login" target="_blank" style="background-color:rgb(176, 103, 232); color: white; padding: 14px 30px; text-decoration: none; font-weight: bold; border-radius: 6px; display: inline-block;">
+          <a href="https://jnv-maa.vercel.app/login" target="_blank" style="background-color:rgb(176, 103, 232); color: white; padding: 14px 30px; text-decoration: none; font-weight: bold; border-radius: 6px; display: inline-block;">
             Visit Your Portal Now
           </a>
         </div>
@@ -78,8 +78,8 @@ const sendNotification = async (req, notificationData) => {
       
       <div style="background-color: #f0f0f0; text-align: center; padding: 15px; font-size: 13px; color: #777;">
         JNV Mandphia Alumni Association Portal<br/>
-        <a href="https://alumni-portal-davjjp.vercel.app/" style="color: #888;">Unsubscribe</a> • 
-        <a href="https://alumni-portal-davjjp.vercel.app/" style="color: #888;">Visit Portal</a>
+        <a href="https://jnv-maa.vercel.app/" style="color: #888;">Unsubscribe</a> • 
+        <a href="https://jnv-maa.vercel.app/" style="color: #888;">Visit Portal</a>
       </div>
     </div>
   </div>
