@@ -37,11 +37,10 @@ app.use(helmet({
 
 // --- CORS CONFIGURATION ---
 const allowedOrigins = [
-    "https://davjjp-alumni-crhfw.ondigitalocean.app",
-    "https://alumni-portal-davjjp.vercel.app",
+   "https://alumni-portal-5f99.onrender.com",
     "http://localhost:3000",
     "http://localhost:3001",
-    "https://alumni-davjjp.netlify.app",
+    "https://jnv-maa.vercel.app/",
     "http://192.168.9.39:3000",
 ];
 
