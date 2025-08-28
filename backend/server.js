@@ -57,12 +57,7 @@ const corsOptions = {
     credentials: true
 };
 app.use(cors(corsOptions));
-// app.use(
-//     cors({
-//         origin: "http://localhost:3000",
-//         credentials: true,
-//     })
-// )
+
 
 
 app.use(express.json({ limit: '10mb' }));
@@ -208,6 +203,10 @@ app.use('/api/groups', require('./routes/groups'));
 app.use('/api/messages', require('./routes/messages'));
 app.use('/api/notifications', require('./routes/notifications'));
 app.use('/api/birthday', require('./routes/birthday'));
+
+app.get("/", (req, res) => {
+    res.send("🚀 Backend API is running. Try /api/auth or /api/users");
+});
 
 // --- ERROR HANDLING MIDDLEWARE ---
 app.use((err, req, res, next) => {
