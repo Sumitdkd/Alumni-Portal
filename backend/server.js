@@ -40,7 +40,7 @@ const allowedOrigins = [
    "https://alumni-portal-5f99.onrender.com",
     "http://localhost:3000",
     "http://localhost:3001",
-    "https://jnv-maa.vercel.app/",
+    "https://jnv-maa.vercel.app",
     "http://192.168.9.39:3000",
 ];
 
