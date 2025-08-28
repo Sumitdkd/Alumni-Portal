@@ -197,14 +197,22 @@ io.on('connection', (socket) => {
 });
 
 // --- API ROUTES ---
-app.use('/api/auth', require('./routes/auth'));
-app.use('/api/users', require('./routes/users'));
-app.use('/api/posts', require('./routes/posts'));
-app.use('/api/feedback', require('./routes/feedback'));
-app.use('/api/groups', require('./routes/groups'));
-app.use('/api/messages', require('./routes/messages'));
-app.use('/api/notifications', require('./routes/notifications'));
-app.use('/api/birthday', require('./routes/birthday'));
+app.use('/auth', require('./routes/auth'));
+app.use('/users', require('./routes/users'));
+app.use('/posts', require('./routes/posts'));
+app.use('/feedback', require('./routes/feedback'));
+app.use('/groups', require('./routes/groups'));
+app.use('/messages', require('./routes/messages'));
+app.use('/notifications', require('./routes/notifications'));
+app.use('/birthday', require('./routes/birthday'));
+// app.use('/api/auth', require('./routes/auth'));
+// app.use('/api/users', require('./routes/users'));
+// app.use('/api/posts', require('./routes/posts'));
+// app.use('/api/feedback', require('./routes/feedback'));
+// app.use('/api/groups', require('./routes/groups'));
+// app.use('/api/messages', require('./routes/messages'));
+// app.use('/api/notifications', require('./routes/notifications'));
+// app.use('/api/birthday', require('./routes/birthday'));
 
 app.get("/", (req, res) => {
     res.send("🚀 Backend API is running. Try /api/auth or /api/users");
