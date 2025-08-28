@@ -242,7 +242,7 @@ export default function Profile() {
                   <div className="flex flex-wrap justify-center sm:justify-start gap-2 text-sm sm:text-base opacity-90">
                     <span className="flex items-center gap-1">
                       <AcademicCapIcon className="w-4 h-4" />
-                      Class of {profile.batchYear}
+                      Batch of {profile.batchYear}
                     </span>
                     {profile.currentOrganization && (
                       <span className="flex items-center gap-1">
